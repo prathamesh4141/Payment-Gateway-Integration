@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway Integration</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu">
+        <h1>Payment Gateway</h1>
+        </div>
+        <ul class="menu1">
+            <li class="nav-item">
+              <a id="Home"href="#main">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+          </ul>
+        </div>
+        <section class="main" id="main">
+            <div class="donat1">
+                <p>"It's not the amount that matters but the meaning behind your donation."</p>
+            </div>
+            <div class="donat">
+                <button type="button" class="btn btn-success btn-rounded"><a href="donate.html">Donate Here</a></button>
+            </div>
+       </section>
+       <!-- <hr>  -->
+       <section>
+            <div id="Contact">
+                <div class="h12">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="form1">
+                    <form action="https://formspree.io/f/mayvqedy" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailaddress">Email ID</label>
+                            <input type="email" id="emailaddress" name="emailaddress">
+                        </div>
+                        <div class="form-group"> 
+                            <label for="message">Message</label>  
+                            <textarea id="message" name="message" cols="15" rows="5"></textarea>
+                        </div>
+                        <button type="submit">Send</button>   
+                    </form>
+                </div>
+                <div id="Status"></div>
+            </div>
+            <div id="About">
+                <h1>ABOUT</h1>
+                <p>The payment gateway website will provide an integration with the help of the donation button ,which is displayed on the home section above.This website provides secure payment option.This website has be solely built with the intend of learning how to integrate and understanding the working of payment gateway.</p>
+            </div>
+            <div class="foot">
+                <p>Payment Gateway, &copy;All rights reserved, 2021.</p>
+            </div>
+        </section>     
+</body>
+</html>
